@@ -14,6 +14,8 @@ Pod::Spec.new do |spec|
   spec.source_files = [
       'IGInterfaceDataTable/*.{h,m}'
   ]
+  
+  spec.watchos.deployment_target = 2.0
 
   spec.frameworks = 'WatchKit'
 
